@@ -145,8 +145,6 @@ npm run parallel_android
 
 npm run parallel_ios
 
-npm 
-
 
 ```
 ## End
