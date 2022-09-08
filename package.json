@@ -14,6 +14,7 @@
     "selenium",
     "examples"
   ],
+  "author": "Kavita Bhatt",
   "dependencies": {
     "appium-android-driver": "^5.4.0",
     "appium-base-driver": "^7.11.3",
