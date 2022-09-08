@@ -2,7 +2,7 @@
   "name": "mocha-selenium-sample",
   "description": " Selenium examples for Mocha and LambdaTest",
   "scripts": {
-    "test": "npm run android && npm run ios",
+    "test": "npm run android && npm run ios && npm run parallel_android && npm run parallel_ios",
     "parallel_android": "cross-env CONFIG_FILE=parallel_android ./node_modules/.bin/mocha specs/parallel_android_test.js conf/parallel_android.conf.js --timeout=100000",
     "ios": "cross-env CONFIG_FILE=ios ./node_modules/.bin/mocha specs/ios_test.js conf/ios.conf.js",
     "android": "cross-env CONFIG_FILE=android ./node_modules/.bin/mocha specs/android_test.js conf/android.conf.js",
